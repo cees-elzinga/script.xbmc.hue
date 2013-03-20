@@ -51,10 +51,11 @@ class Hue:
   def __init__(self, settings):
     self._parse_argv()
     self.settings = settings
-    self.update_settings()
+    if self.settings.bridge_user not in ["-", "", None]:
+      self.update_settings()
 
     if self.params == {}:
-      if self.settings.bridge_ip != "-":
+      if self.settings.bridge_ip not in ["-", "", None]:
         self.test_connection()
     elif self.params['action'] == "discover":
       log("Starting discover")
