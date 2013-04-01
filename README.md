@@ -1,6 +1,8 @@
 script.xbmc.hue.stripped
 ========================
 
+.. image:: http://meethue.files.wordpress.com/2013/01/plugin2.png?w=400
+
 This is the stripped version of an XBMC add-on for Philips Hue lights. The stripped version is made to be portable, and works out of the box. Follow the installation instructions and you're ready to go. Unlike the full version it supports only 1 mode of operation, the so-called "theatre" mode.
 
 ### Theatre mode
