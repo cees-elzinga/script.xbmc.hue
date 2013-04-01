@@ -1,14 +1,9 @@
-script.xbmc.hue.stripped
-========================
+script.xbmc.hue
+===============
 
 ![ScreenShot](http://meethue.files.wordpress.com/2013/01/plugin2.png?w=400)
 
-This is the stripped version of an XBMC add-on for Philips Hue lights. The stripped version is made to be portable, and works out of the box. Follow the installation instructions and you're ready to go. Unlike the full version it supports only 1 mode of operation, the so-called "theatre" mode.
-
-### Theatre mode
-
-Dims the the Philips Hue lights as soon as a movie starts playing, and turns the lights back on once the movie is done
-
+This is an XBMC add-on that controls Philips Hue lights. It will automatically dim the lights as soon as a movie starts playing, and turns the lights back on once the movie is done The add-on is made to be portable and works out of the box. Follow the installation instructions and you're ready to go.
 
 Installation
 ------------
@@ -26,7 +21,7 @@ Note for Raspberry Pi users: To save the add-on configuration, exit XBMC first b
 Ambilight mode
 --------------
 
-If you'd like to use your lights in an ambilight mode you'll need the full version of this add-on, available at: https://github.com/cees-elzinga/script.xbmc.hue . In order for the ambilight mode to work you'll need to install the Python PIL library first.
+If you'd like to use your lights in an ambilight mode you'll need the "ambilight" version of this add-on, available at: https://github.com/cees-elzinga/script.xbmc.hue.ambilight. In order for the ambilight mode to work you'll need to install the Python PIL library first.
 
 Donations
 ---------
@@ -36,6 +31,7 @@ If you like the add-on, donations are always welcome :)
 
 Release history
 ---------------
+  * 2013-04-01 v0.2.1 Rename to scripts.xbmc.hue
   * 2013-02-25 v0.2.0 Improved handling for grouped lights
   * 2013-01-27 v0.1.0 Initial release 
 

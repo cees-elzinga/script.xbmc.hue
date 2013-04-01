@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.xbmc.hue.stripped" name="XBMC Philips Hue" version="0.2" provider-name="Cees Elzinga">
+<addon id="script.xbmc.hue" name="XBMC Philips Hue" version="0.2.1" provider-name="Cees Elzinga">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
   <extension point="xbmc.service" library="default.py"></extension>
   <extension point="xbmc.addon.metadata">
     <summary>XBMC controlled Philips Hue lights</summary>
-    <description>XBMC output to Philips Hue lights. This stripped version of the add-on. It does not support the amblight mode, but is more portable and works out of the box..</description>
+    <description>Let XBMC control your Philips Hue lights. Automatically dims the lights when playback starts, and restored the light when playback is paused or completed.</description>
     <platform>all</platform>
   </extension>
 </addon>
