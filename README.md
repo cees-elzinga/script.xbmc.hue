@@ -8,7 +8,7 @@ This is an XBMC add-on that controls Philips Hue lights. It will automatically d
 Installation
 ------------
 
-Download the add-on as a ZIP file. Open XBMC go to
+Download the add-on as a ZIP file. Open XBMC and go to:
 
 System -> Settings -> Add-ons -> Install from zip file
 
@@ -16,7 +16,7 @@ Restart XBMC and configure the add-on:
 
 System -> Settings -> Add-ons -> Enabled add-ons -> Services -> XBMC Philips Hue
 
-Note for Raspberry Pi users: To save the add-on configuration, exit XBMC first before shutting down the Pi.
+Note for Raspberry Pi users: To save the add-on configuration exit XBMC first before shutting down the Pi.
 
 Ambilight mode
 --------------
