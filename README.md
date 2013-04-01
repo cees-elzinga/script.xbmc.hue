@@ -11,11 +11,15 @@ Dims the the Philips Hue lights as soon as a movie starts playing, and turns the
 Installation
 ------------
 
-Copy the `script.xbmc.hue.stripped` folder to your XBMC add-ons. For Mac OSX users: `/Users/username/Library/Application Support/XBMC/addons/`.
+Download the add-on as a ZIP file. Open XBMC go to
+
+System -> Settings -> Add-ons -> Install from zip file
 
 Restart XBMC and configure the add-on:
 
 System -> Settings -> Add-ons -> Enabled add-ons -> Services -> XBMC Philips Hue
+
+Note for Raspberry Pi users: To save the add-on configuration, exit XBMC first before shutting down the Pi.
 
 Ambilight mode
 --------------
@@ -26,7 +30,7 @@ Donations
 ---------
 If you like the add-on, donations are always welcome :)
 
-[![Pledgie](http://www.pledgie.com/campaigns/19430.png?skin_name=chrome)](http://www.pledgie.com/campaigns/19430)
+[![PayPal]( https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=48ZKAZK6QHNGJ&lc=NL&item_name=script%2exbmc%2ehue&currency_code=EUR)
 
 Release history
 ---------------
