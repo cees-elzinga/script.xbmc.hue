@@ -16,7 +16,7 @@ Restart XBMC and configure the add-on:
 
 System -> Settings -> Add-ons -> Enabled add-ons -> Services -> XBMC Philips Hue
 
-Note for Raspberry Pi users: To save the add-on configuration exit XBMC first before shutting down the Pi.
+Note for Raspberry Pi users: save the add-on configuration by exiting XBMC before shutting down the Pi completely.
 
 Ambilight mode
 --------------
@@ -31,6 +31,7 @@ If you like the add-on, donations are always welcome :)
 
 Release history
 ---------------
+  * 2013-04-22 v0.2.2 Ignore the light if it's turned off. Only act on video playback (not music)
   * 2013-04-01 v0.2.1 Rename to scripts.xbmc.hue
   * 2013-02-25 v0.2.0 Improved handling for grouped lights
   * 2013-01-27 v0.1.0 Initial release 

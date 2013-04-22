@@ -24,23 +24,35 @@ def log(msg):
 
 log("Service started")
 class MyPlayer(xbmc.Player):
+  playingvideo = None
+
   def __init__(self):
     xbmc.Player.__init__(self)
-
+  
   def onPlayBackStarted(self):
-    state_changed("started")
+    if self.isPlayingVideo():
+      self.playingvideo = True
+      state_changed("started")
 
   def onPlayBackPaused(self):
-    state_changed("paused")
+    if self.isPlayingVideo():
+      self.playingvideo = False
+      state_changed("paused")
 
   def onPlayBackResumed(self):
-    state_changed("resumed")
+    if self.isPlayingVideo():
+      self.playingvideo = True
+      state_changed("resumed")
 
   def onPlayBackStopped(self):
-    state_changed("stopped")
+    if self.playingvideo:
+      self.playingvideo = False
+      state_changed("stopped")
 
   def onPlayBackdEnded(self):
-    state_changed("stopped")
+    if self.playingvideo:
+      self.playingvideo = False
+      state_changed("stopped")
 
 class Hue:
   params = None
@@ -117,6 +129,7 @@ class Hue:
 
 def run():
   last = datetime.datetime.now()
+  player = MyPlayer()
   while not xbmc.abortRequested:
     if datetime.datetime.now() - last > datetime.timedelta(seconds=1):
       # check for updates every 1s (fixme: use callback function)
@@ -124,7 +137,6 @@ def run():
       hue.settings.readxml()
       hue.update_settings()
     
-    player = MyPlayer()
     xbmc.sleep(500)
 
 def state_changed(state):
