@@ -113,7 +113,7 @@ class Hue:
       self.connected = True
 
   def dim_lights(self):
-    self.light.dim_light()
+    self.light.dim_light(self.settings.dim_brightness)
         
   def brighter_lights(self):
     self.light.brighter_light()
