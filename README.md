@@ -14,7 +14,9 @@ System -> Settings -> Add-ons -> Install from zip file
 
 Restart XBMC and configure the add-on:
 
-System -> Settings -> Add-ons -> Enabled add-ons -> Services -> XBMC Philips Hue
+System -> Settings -> Add-ons -> Enabled add-ons -> Services -> XBMC Philips Hue -> Start bridge discovery
+
+Using "bridge discovery" the "Bridge IP" and "Bridge User" are entered automatically.
 
 Note for Raspberry Pi users: save the add-on configuration by exiting XBMC before shutting down the Pi completely.
 
