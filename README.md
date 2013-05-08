@@ -3,27 +3,27 @@ script.xbmc.hue
 
 ![ScreenShot](http://meethue.files.wordpress.com/2013/01/plugin2.png?w=400)
 
-This is an XBMC add-on that controls Philips Hue lights. It will automatically dim the lights as soon as a movie starts playing, and turns the lights back on once the movie is done The add-on is made to be portable and works out of the box. Follow the installation instructions and you're ready to go.
+An XBMC add-on that controls Philips Hue lights. It will automatically dim the lights as soon as a movie starts playing, and turns the lights back on once the movie is done.
 
 Installation
 ------------
 
 Download the add-on as a ZIP file. Open XBMC and go to:
 
-System -> Settings -> Add-ons -> Install from zip file
+`System -> Settings -> Add-ons -> Install from zip file`
 
 Restart XBMC and configure the add-on:
 
-System -> Settings -> Add-ons -> Enabled add-ons -> Services -> XBMC Philips Hue -> Start bridge discovery
+`System -> Settings -> Add-ons -> Enabled add-ons -> Services -> XBMC Philips Hue -> Start bridge discovery`
 
-Using "bridge discovery" the "Bridge IP" and "Bridge User" are entered automatically.
+Using "Start auto discovery of bridge IP and User" the "Bridge IP" and "Bridge User" are entered automatically.
 
 Note for Raspberry Pi users: save the add-on configuration by exiting XBMC before shutting down the Pi completely.
 
 Ambilight mode
 --------------
 
-If you'd like to use your lights in an ambilight mode you'll need the "ambilight" version of this add-on, available at: https://github.com/cees-elzinga/script.xbmc.hue.ambilight. In order for the ambilight mode to work you'll need to install the Python PIL library first.
+If you'd like to use your lights in an ambilight mode you'll need the "ambilight" version of this add-on, available at: https://github.com/cees-elzinga/script.xbmc.hue.ambilight. In order for the ambilight mode to work you'll need to install the XBMC requests add-on first.
 
 Donations
 ---------
