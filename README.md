@@ -25,12 +25,6 @@ Ambilight mode
 
 If you'd like to use your lights in an ambilight mode you'll need the "ambilight" version of this add-on, available at: https://github.com/cees-elzinga/script.xbmc.hue.ambilight. In order for the ambilight mode to work you'll need to install the XBMC requests add-on first.
 
-Donations
----------
-If you like the add-on, donations are always welcome :)
-
-[![PayPal]( https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=48ZKAZK6QHNGJ&lc=NL&item_name=script%2exbmc%2ehue&currency_code=EUR)
-
 Release history
 ---------------
   * 2013-04-25 v0.2.3 Custom dimmed brightness
